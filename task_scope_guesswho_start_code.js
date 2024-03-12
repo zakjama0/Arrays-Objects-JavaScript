@@ -17,19 +17,19 @@
 
 // // GUESS 2 ///////////////////
 
-let firstName = "Donna";
+// let firstName = "Donna";
 
-const guessWho = function () {
-  const glasses = false;
-  let firstName = "Liz";
-  return `Guess Who is ${firstName}.`;
-};
+// const guessWho = function () {
+//   const glasses = false;
+//   let firstName = "Liz";
+//   return `Guess Who is ${firstName}.`;
+// };
 
-const guess1 = guessWho();
-console.log("guess1: ", guess1);
+// const guess1 = guessWho();
+// console.log("guess1: ", guess1);
 
-const guess2 = `Guess Who is ${firstName}`;
-console.log("guess2: ", guess2);
+// const guess2 = `Guess Who is ${firstName}`;
+// console.log("guess2: ", guess2);
 
 //Predction: Lizz
 
@@ -63,6 +63,7 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// Prediction : Chris;
 
 // // GUESS 4 ///////////////////
 
@@ -78,26 +79,27 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
-
+// Prediction : Gail
 // // GUESS 5 ///////////////////
 
-// const guess = {
-//   hair_colour: "blonde",
-//   eye_colour: "brown",
-//   hat: false,
-//   glasses: false,
-//   firstName: "Jennifer",
-// };
+const guess = {
+  hair_colour: "blonde",
+  eye_colour: "brown",
+  hat: false,
+  glasses: false,
+  firstName: "Jennifer",
+};
 
-// const changeGuess = function () {
-//   guess = {
-//     hair_colour: "blonde",
-//     eye_colour: "blue",
-//     hat: false,
-//     glasses: false,
-//     firstName: "Kyle",
-//   };
-// };
+const changeGuess = function () {
+  guess = {
+    hair_colour: "blonde",
+    eye_colour: "blue",
+    hat: false,
+    glasses: false,
+    firstName: "Kyle",
+  };
+};
 
-// changeGuess();
-// console.log(`Guess Who is ${guess.firstName}`);
+changeGuess();
+console.log(`Guess Who is ${guess.firstName}`);
+// Prediction: Jennifer
